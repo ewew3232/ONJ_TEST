@@ -17,10 +17,10 @@ tf.random = Math.floor(Math.random()*101);
 
 [if exp="tf.random>49"]
 
-[jump  storage="scene1.ks"  target="*50以上"  ]
+[jump  storage="ransuu.ks"  target="*50以上"  ]
 [else]
 
-[jump  storage="scene1.ks"  target="*50未満"  ]
+[jump  storage="ransuu.ks"  target="*50未満"  ]
 [endif]
 
 *50以上
@@ -38,7 +38,7 @@ tf.random = Math.floor(Math.random()*101);
 最初に戻ります。[p]
 [_tb_end_text]
 
-[jump  storage="scene1.ks"  target="*start"  ]
+[jump  storage="ransuu.ks"  target="*start"  ]
 [cm  ]
 [s  ]
 *50未満
@@ -57,4 +57,4 @@ tf.random = Math.floor(Math.random()*101);
 [_tb_end_text]
 
 [cm  ]
-[jump  storage="scene1.ks"  target="*start"  ]
+[jump  storage="ransuu.ks"  target="*start"  ]
